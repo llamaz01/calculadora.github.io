@@ -4,7 +4,10 @@ body{
     background: #f6f5f7; 
     font-family: 'Montserrat', sans-serif;
     color: #3E363F;
-     background-image: url(https://img.freepik.com/vector-gratis/patron-fisuras-material-escolar-oficina_107791-9568.jpg?w=740&t=st=1694313686~exp=1694314286~hmac=d2febe5decc5b371a667e2dd9ef0939d76bfa377da4875bb02a509413583ee4e);
+     background-image: url(https://img.freepik.com/vector-premium/fondo-textura-acuarela-azul-oscuro-abstracto_628634-1819.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
 }
 
 #contenedor{
@@ -31,7 +34,7 @@ body{
 }
 
 #detalle{
-    background: #da4467;
+    background: #29589a;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -63,8 +66,8 @@ button {
 padding: 12px 45px;
 position: relative;
   border-radius: 30px;
-  background-color: #FF416C;
-  border: 1px solid #FF416C;
+  background-color:  #29589a;
+  border: 1px solid  #29589a;
   color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: 1px; /*espaciado ente letras*/
@@ -76,6 +79,19 @@ position: relative;
 button:active {
 	transform: scale(0.95);
 }
+
+select {
+    
+    justify-content: space-between;
+  font-size: 13px;
+  font-weight:normal;
+
+  position: relative;
+  border: 2px solid  #5c779d;
+
+
+}
+
 
 #error{
     color: red;
